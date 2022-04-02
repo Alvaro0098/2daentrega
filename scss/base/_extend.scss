@@ -1,0 +1,12 @@
+.disposicion_space{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer{
+    @extend .disposicion_space;
+    margin-top: 10rem;
+    margin-top: 0rem;
+    background-color: rgb(0, 0, 0);
+}

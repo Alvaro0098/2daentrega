@@ -1,0 +1,19 @@
+{
+  "name": "entrega2da",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alvaro0098/2daentrega.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alvaro0098/2daentrega/issues"
+  },
+  "homepage": "https://github.com/Alvaro0098/2daentrega#readme"
+}
