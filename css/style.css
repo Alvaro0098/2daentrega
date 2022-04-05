@@ -1,228 +1,252 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:ital,wght@0,300;1,200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:ital,wght@0,300;1,200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
 
-*{
-    margin: 0;
+.disposicion_space, .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer {
+  margin-top: 10rem;
+  margin-top: 0rem;
+  background-color: black;
+}
+
+.main__index {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15rem;
+  margin: 30px 0;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo__header {
+  width: 120px;
+  height: 120px;
+  margin-left: 2rem;
+}
+
+header {
+  background-image: url(../img/nuevofondo.jpg);
+  height: 800px;
+}
+
+.modified__navbar {
+  margin-left: 600px;
+}
+
+.navbar-light .navbar-nav a.nav-link {
+  color: white;
+}
+
+.item__modified {
+  margin-right: 50px;
+}
+
+.container2__header {
+  margin-top: 10rem;
+  margin-left: 8rem;
+}
+
+.h1__header {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 98px;
+  color: #EEEFF4;
+}
+
+.p__header {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  max-width: 620px;
+  padding-top: 1rem;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: #EEEFF4;
+}
+
+.hero__index {
+  width: 30%;
+}
+
+.h1__index {
+  margin-bottom: 1rem;
+  font-size: 30px;
+}
+
+button {
+  margin-top: 1,5rem;
+  outline: none;
+  border: none;
+  background-color: #075656;
+  padding: 1rem;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 115px;
+}
+
+.img__index {
+  width: 30%;
+}
+
+.header__servicios {
+  background-image: url(../img/martin-shreder-5Xwaj9gaR0g-unsplash.jpg);
+  height: 800px;
+  background-repeat: no-repeat;
+}
+
+.header__nosotros {
+  background-image: url(../img/alesia-kazantceva-XLm6-fPwK5Q-unsplash.jpg);
+  height: 800px;
+  background-repeat: no-repeat;
+}
+
+.header__trabajos {
+  background-image: url(../img/austin-distel-wD1LRb9OeEo-unsplash.jpg);
+  height: 1000px;
+  background-repeat: no-repeat;
+}
+
+.main__trabajos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 8rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.div__trabajos {
+  width: 350px;
+  background-color: #29a3e0;
+  color: whitesmoke;
+  font-size: 1rem;
+  padding: 1rem;
+  height: 24rem;
+}
+
+.div__trabajos i {
+  font-size: 80px;
+  margin-bottom: 1rem;
+}
+
+.header__contacto {
+  background-image: url(../img/nasa-Q1p7bh3SHj8-unsplash.jpg);
+  height: 800px;
+  background-repeat: no-repeat;
+}
+
+.container2__header--contacto {
+  width: 50%;
+  margin-left: 340px;
+}
+
+@media (max-width: 576px) {
+  .modified__navbar {
+    margin-left: 130px;
     padding: 0;
-}
-
-.logo__header{
-    width: 120px;
-    height: 120px;
-    margin-left: 2rem;
-}
-
-header{
-    background-image: url(../img/nuevofondo.jpg);
-    height: 800px;
-}
-
-
-.modified__navbar{
-    margin-left: 600px;
-
-}
-.navbar-light .navbar-nav a.nav-link{
-    color: white;
-}
-.item__modified{
-    margin-right: 50px;
-    
-}
-
-
-.container2__header{
-    margin-top: 10rem;
-    margin-left: 8rem;
-}
-
-.h1__header{
-    font-family: 'Inter', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 4rem;
-    line-height: 98px;
-    color: #EEEFF4;
-}
-
-.p__header{
-    font-family: 'Inter', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    max-width: 620px;
-    padding-top: 1rem;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 32px;
-    color: #EEEFF4;
-}   
-
-.main__index{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15rem;
-    margin: 30px 0;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.hero__index{
-    width: 30%;
-    
-}
-.h1__index{
-margin-bottom: 1rem;
-font-size: 30px;
-}
-
-
-button{
-    margin-top: 1,5rem;
-    outline: none;
-    border: none;
-    background-color: rgb(7, 86, 86);
-    padding: 1rem;
-    color: white;
-    font-weight: 600;
-    border-radius: 10px;
-    margin-top: 15px;
-    margin-left: 115px;
-}
-.img__index{
-    width: 30%;
-}
-.header__servicios{
-    background-image: url(../img/martin-shreder-5Xwaj9gaR0g-unsplash.jpg);
-    height: 800px;
-    background-repeat: no-repeat;
-}
-
-.header__nosotros{
-    background-image: url(../img/alesia-kazantceva-XLm6-fPwK5Q-unsplash.jpg);
-    height: 800px;
-    background-repeat: no-repeat;
-}
-
-.header__trabajos{
-    background-image: url(../img/austin-distel-wD1LRb9OeEo-unsplash.jpg);
-    height: 1000px;
-    background-repeat: no-repeat;
-}
-
-.main__trabajos{
-    display: flex;
-    justify-content: center;
-    gap: 8rem;
-    padding: 2rem;
-    text-align: center  ;
-
-}
-.div__trabajos{
-    width: 350px;
-    background-color: #29a3e0;
-    color: whitesmoke;
-    font-size: 1rem;
-    padding: 1rem;
-    height: 24rem ;
-}
-.div__trabajos i{
-    font-size: 80px;
-    margin-bottom: 1rem;
-}
-
-.header__contacto{
-    background-image: url(../img/nasa-Q1p7bh3SHj8-unsplash.jpg);
-    height: 800px;
-    background-repeat: no-repeat;
-    }
-
-.container2__header--contacto{
-    width: 50%;
-    margin-left: 340px;
-}
-
-@media (max-width: 576px){
-    .modified__navbar{
-        margin-left: 130px;
-        padding: 0;
-    }
-
-    .navbar-light .navbar-nav a.nav-link{
-        color: black;
-    }
- 
-    .h1__header{
-        font-size: 2rem;
-        line-height: 48px;
-        color: #f7bb1f;
-        margin-top: 80px;
-    }
-    .container2__header{
-        margin-top: 20px;
-        margin-left: 65px;
-    }
-    .navbar{
-        background-color: #EEEFF4;
-    }
-    .main__index{
-        flex-direction: column;
-        gap: 1rem;
-    }
-    .hero__index {
-        width: 70%;
-        padding-left: 30px;
-    }
-    header{
-        height: 650px;
-    }
-
-    .header__trabajos{
-        height: 700px;
-    }
-
-    .main__trabajos{
-        flex-direction: column;
-    }
-    .div__trabajos{
-        width: 300px;
-    }
-    .hero__index{
-        width: 80%;
-    }
-    .logo__header {
+  }
+  .navbar-light .navbar-nav a.nav-link {
+    color: black;
+  }
+  .h1__header {
+    font-size: 2rem;
+    line-height: 48px;
+    color: #f7bb1f;
+    margin-top: 80px;
+  }
+  .container2__header {
+    margin-top: 20px;
+    margin-left: 65px;
+  }
+  .navbar {
+    background-color: #EEEFF4;
+  }
+  .main__index {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 1rem;
+  }
+  .hero__index {
+    width: 70%;
+    padding-left: 30px;
+  }
+  header {
+    height: 650px;
+  }
+  .header__trabajos {
+    height: 700px;
+  }
+  .main__trabajos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .div__trabajos {
+    width: 300px;
+  }
+  .hero__index {
+    width: 80%;
+  }
+  .logo__header {
     width: 100px;
-    height: 100px;    
-    }
-    footer div i{
-        margin-right: 2rem;
-        color: aliceblue;
-    }
-    .container2__header--contacto{
-        width: 100%;
-        margin-left: 0px;
-    }
- 
-}
-
-.footer{
-    display: flex;
-    margin-top: 10rem;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 0rem;
-    background-color: rgb(0, 0, 0);
-}
-
-footer i{
-    font-size: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0,5rem;
-    margin-right: 3rem;
+    height: 100px;
+  }
+  footer div i {
+    margin-right: 2rem;
     color: aliceblue;
+  }
+  .container2__header--contacto {
+    width: 100%;
+    margin-left: 0px;
+  }
 }
 
-
+footer i {
+  font-size: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0,5rem;
+  margin-right: 3rem;
+  color: aliceblue;
+}
+/*# sourceMappingURL=style.css.map */
